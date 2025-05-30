@@ -29,10 +29,12 @@
 .links{
     color: white;
     text-decoration: none;
+    padding-right: 40px;
 }
 #aviso{
     text-align: center;
-    background-color:brown;
+    background-color:rgb(255, 251, 0);
     border-radius: 100%;
-    color: rgb(255, 183, 0);
+    
+    color: rgb(0, 0, 0);
 }
