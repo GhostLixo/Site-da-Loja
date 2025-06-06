@@ -1,12 +1,26 @@
 @font-face {
-    font-family: 'fonte';
-    src: url('ninjago.otf') format('opentype');
+    font-family: 'ninjago';
+    src: url('ninjago.otf') format("opentype");
+}
+@font-face {
+    font-family: 'futura';
+    src: url('FuturaBold.otf') format("opentype");
+}
+@font-face {
+    font-family: 'lemon';
+    src: url('lemon.otf') format("opentype");
+}
+html, body{
+    overflow-x: hidden;
 }
 * {
     border: 0;
     padding: 0;
     margin: 0;
     text-decoration: none;
+}
+p{
+    font-family: futura;
 }
 u{
     text-decoration: underline;
@@ -15,26 +29,29 @@ u{
     padding-top: 30px;
     padding-left: 80px;
     background-color: black;
-    font-family: fonte;
+    font-family: 'ninjago';
     letter-spacing: 7px;
     color: rgb(207, 15, 15);
-    height: 200px;
+    height: 150px;
 }/* Ate aqui esta ok*/
 #cabecalhoh2{
     font-family: candara;
     color: white;
-    padding-top: 7px;
+    padding-top: 5px;
     padding-left: 50px;
     letter-spacing: 4px;
 }
 .navegacaolinks{
-    color: white;
+    font-family: lemon;
+    color: rgb(255, 255, 255);
     text-align: right;
-    font-family: Franklin Gothic;
+    
     padding-right: 40px;
 }
 #linkhome{
     color: rgb(207, 13, 13);
+    font-family: futura;
     padding-right: 9000px;
 
 }
+
